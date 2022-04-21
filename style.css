@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    background-color: rgb(12, 12, 92);
+}
+
 .principal{
     width: 60vw;
     height: 80vh;
