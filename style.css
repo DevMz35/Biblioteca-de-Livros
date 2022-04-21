@@ -13,6 +13,7 @@
     align-items: center;
     margin: 2rem auto;
     padding: 20px;
+    border-radius: 10px;
 }
 
 .dados-do-livro{
@@ -28,10 +29,12 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
     text-align: center;
+    font-size: 2rem;
 }
 
 #button{
     width: 15rem;
     padding: .8rem;
     margin: 2rem;
+    font-size: 1rem;
 }
