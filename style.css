@@ -27,7 +27,7 @@ body{
     align-items: center;
 }
 
-.dados-do-livro .titulo-do-livro, .autor-do-livro, .pagina-do-livro, .leitura{
+.dados-do-livro .titulo, .autor, .pagina, .leitura{
     width: 50vw;
     height: 3rem;
     margin-top: 1rem;
