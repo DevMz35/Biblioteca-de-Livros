@@ -9,7 +9,7 @@ body{
 
 .principal{
     width: 60vw;
-    height: 80vh;
+    height: auto;
     background-color: rgb(115, 155, 6);
     display: flex;
     justify-content: center;
@@ -45,4 +45,30 @@ body{
     border-radius: 1rem;
     background-color: rgb(134, 12, 83);
     color: #fff;
+}
+
+.library{
+    width: 60vw;
+    height: auto;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+
+}
+
+.meu-livro{
+    width: 8rem;
+    height: 10rem;
+    background-color: rgb(189, 18, 103);
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    padding: 10px;
 }

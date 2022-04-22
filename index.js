@@ -9,28 +9,38 @@
   form.addEventListener('submit', (e) =>{
     e.preventDefault()
     
+    const myBook = (msg)=>{
+        const objeto = document.querySelector('.library');
+        const div = document.createElement('div');
+        div.classList.add('meu-livro')
+        div.textContent = msg
+        objeto.appendChild(div)
+      }
+    
     if(title.value === '' && pages.value === '' &&  author.value === ''){
       alert ('Preencha todos os campos obrigatórios!');
       return
     }
 
   
-     function Book(title, author, pages, reader){
-            this.title = title
+     function Books(title, author, pages, reader){
+            this.titulo = title
             this.autor = author
-            this.page = pages
-            this.leitotr = reader
+            this.paginas = pages
+            this.leitor = reader
      }
 
-    const addBook = (title.value, author.value, pages.value, reader.value);
+    const addBook = new Books (title.value, author.value, pages.value, reader.value);
       myLibrary.push(addBook)
-      console.log(myLibrary)
+
+      for( book of myLibrary){
+          myBook(book.leitor, book.paginas)
+        }
+      }
+     
+
+      
     
     
-  })
-
-  
-
-  
-
+  )
 })()
